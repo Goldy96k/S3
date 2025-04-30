@@ -1,0 +1,20 @@
+# S3 Website Hosting Assignment
+
+## Problem Statement
+You work for XYZ Corporation. Their application requires a storage service that can store files and publicly share them if required. Implement Amazon S3 for the same.
+
+## Tasks Performed
+
+1. **Static Website Hosting**:
+   - Used the previously created S3 bucket for hosting a static website.
+   - Uploaded `index.html` as the main landing page and `error.html` as the error page.
+   - Enabled static website hosting in the bucket properties and set the index and error documents.
+
+2. **Lifecycle Rule Configuration**:
+   - Created a lifecycle rule to manage storage costs and optimize performance.
+     - Transitioned objects from the **Standard** storage class to **Standard-IA** (Infrequent Access) after 60 days.
+     - Set object expiration to **200 days**, after which the objects will be deleted automatically.
+
+## Outcome
+The bucket is now configured to host a static website and includes a lifecycle policy to manage object storage efficiently over time.
+
