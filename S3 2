@@ -1,0 +1,19 @@
+# Module 6: S3 Bucket Versioning Assignment
+
+## Problem Statement
+You work for XYZ Corporation. Their application requires a storage service that can store files and publicly share them if required. Implement Amazon S3 for the same with versioning enabled to ensure file history is preserved.
+
+## Tasks Performed
+
+### 1. Enable Versioning on S3 Bucket
+- Enabled **Versioning** on the existing S3 bucket that was created in the previous task.
+- This allows multiple versions of an object to be stored and retrieved, even if the object is deleted or overwritten.
+
+### 2. Upload Files to Test Versioning
+- Re-uploaded 2 previously uploaded files to the same bucket.
+- Verified that versioning created new versions of the files instead of replacing the originals.
+- Each upload resulted in a unique version ID being assigned to the file.
+
+## Outcome
+S3 Bucket versioning was successfully enabled and tested. The bucket now stores multiple versions of the same object, ensuring better data protection and rollback capability.
+
