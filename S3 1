@@ -25,17 +25,7 @@ You work for XYZ Corporation. Their application requires a storage service that 
 - **Object Metadata**: Each file uploaded can include custom metadata.
 - **Public Access Settings**: Managed at both the bucket and object level.
 
-## 📷 Screenshots
-> Include screenshots of:
-- The created bucket
-- The list of uploaded files
-- Permissions tab if any file was made public
 
 ## 🔐 Security Note
 Ensure the S3 bucket has appropriate permissions and avoid enabling public access unless required.
 
----
-
-```
-
-Let me know if you want the GitHub description or LinkedIn post for this project too.
